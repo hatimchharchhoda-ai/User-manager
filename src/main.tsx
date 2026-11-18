@@ -1,15 +1,23 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import App from './App.tsx'
-import { ThemeProvider } from './components/theme-provider.tsx'
+import './i18n'
 import { TooltipProvider } from './components/ui/tooltip.tsx'
+import { ThemeProvider } from './components/theme-provider.tsx'
+import { Toaster } from 'sonner'
+import { RouterProvider } from 'react-router-dom'
+import { router } from './routes/route.tsx'
+import App from './App.tsx'
+// import { GoogleTranslate } from './components/google-translate.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <ThemeProvider>
       <TooltipProvider>
         <App />
+        {/* <GoogleTranslate /> */}
+        <RouterProvider router={router} />
+        <Toaster />
       </TooltipProvider>
     </ThemeProvider>
   </StrictMode>,

@@ -1,0 +1,26 @@
+{
+  "team": [
+    { "id": 1, "name": "Neha Desai", "avatar": "ND", "role": "Admin", "department": "Engineering", "status": "Active", "lastSeen": "Just now", "tasksCompleted": 42 },
+    { "id": 2, "name": "Ravi Patel", "avatar": "RP", "role": "Editor", "department": "Marketing", "status": "Active", "lastSeen": "5 min ago", "tasksCompleted": 31 },
+    { "id": 3, "name": "Fatima Al-Sayed", "avatar": "FA", "role": "Viewer", "department": "Sales", "status": "Away", "lastSeen": "1h ago", "tasksCompleted": 18 },
+    { "id": 4, "name": "Tom Brandt", "avatar": "TB", "role": "Editor", "department": "Support", "status": "Active", "lastSeen": "12 min ago", "tasksCompleted": 27 },
+    { "id": 5, "name": "Yuki Tanaka", "avatar": "YT", "role": "Admin", "department": "Engineering", "status": "Inactive", "lastSeen": "2d ago", "tasksCompleted": 55 }
+  ],
+  "growthByRegion": [
+    { "region": "South Asia", "users": 4820, "fill": "var(--chart-1)" },
+    { "region": "Europe", "users": 3210, "fill": "var(--chart-2)" },
+    { "region": "North America", "users": 3890, "fill": "var(--chart-3)" },
+    { "region": "SE Asia", "users": 1640, "fill": "var(--chart-4)" },
+    { "region": "Others", "users": 1272, "fill": "var(--chart-5)" }
+  ],
+  "retentionByWeek": [
+    { "week": "W1", "retained": 100 },
+    { "week": "W2", "retained": 82 },
+    { "week": "W3", "retained": 71 },
+    { "week": "W4", "retained": 65 },
+    { "week": "W5", "retained": 60 },
+    { "week": "W6", "retained": 57 },
+    { "week": "W7", "retained": 54 },
+    { "week": "W8", "retained": 52 }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "recent": [
+    { "id": "ORD-8821", "customer": "Priya Sharma", "avatar": "PS", "product": "Enterprise License", "amount": 4200, "status": "Completed", "date": "2 min ago" },
+    { "id": "ORD-8820", "customer": "James Okafor", "avatar": "JO", "product": "Pro Plan (Annual)", "amount": 960, "status": "Processing", "date": "18 min ago" },
+    { "id": "ORD-8819", "customer": "Lin Wei", "avatar": "LW", "product": "Starter Pack", "amount": 149, "status": "Pending", "date": "41 min ago" },
+    { "id": "ORD-8818", "customer": "Sara Eriksson", "avatar": "SE", "product": "Pro Plan (Monthly)", "amount": 89, "status": "Completed", "date": "1h ago" },
+    { "id": "ORD-8817", "customer": "Carlos Mendez", "avatar": "CM", "product": "Enterprise License", "amount": 4200, "status": "Failed", "date": "2h ago" },
+    { "id": "ORD-8816", "customer": "Ayesha Khan", "avatar": "AK", "product": "Starter Pack", "amount": 149, "status": "Completed", "date": "3h ago" }
+  ],
+  "statusBreakdown": [
+    { "status": "Completed", "count": 847, "percentage": 65 },
+    { "status": "Processing", "count": 234, "percentage": 18 },
+    { "status": "Pending", "count": 156, "percentage": 12 },
+    { "status": "Failed", "count": 57, "percentage": 5 }
+  ],
+  "weeklyVolume": [
+    { "day": "Mon", "orders": 142 },
+    { "day": "Tue", "orders": 198 },
+    { "day": "Wed", "orders": 167 },
+    { "day": "Thu", "orders": 221 },
+    { "day": "Fri", "orders": 253 },
+    { "day": "Sat", "orders": 189 },
+    { "day": "Sun", "orders": 124 }
+  ]
+}

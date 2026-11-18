@@ -1,0 +1,22 @@
+{
+  "projects": [
+    { "id": "proj-1", "name": "Design System v2", "progress": 78, "status": "On Track", "dueDate": "Aug 15", "owner": "Neha Desai", "priority": "High" },
+    { "id": "proj-2", "name": "Mobile App Redesign", "progress": 45, "status": "At Risk", "dueDate": "Jul 30", "owner": "Ravi Patel", "priority": "Critical" },
+    { "id": "proj-3", "name": "API Gateway Migration", "progress": 92, "status": "On Track", "dueDate": "Jul 25", "owner": "Tom Brandt", "priority": "High" },
+    { "id": "proj-4", "name": "Customer Portal", "progress": 20, "status": "Delayed", "dueDate": "Sep 01", "owner": "Fatima Al-Sayed", "priority": "Medium" },
+    { "id": "proj-5", "name": "Analytics Dashboard", "progress": 61, "status": "On Track", "dueDate": "Aug 08", "owner": "Yuki Tanaka", "priority": "Low" }
+  ],
+  "tasksByStatus": [
+    { "label": "Done", "count": 132, "fill": "var(--chart-1)" },
+    { "label": "In Progress", "count": 48, "fill": "var(--chart-2)" },
+    { "label": "In Review", "count": 29, "fill": "var(--chart-3)" },
+    { "label": "Blocked", "count": 11, "fill": "var(--chart-4)" }
+  ],
+  "upcoming": [
+    { "id": "t1", "title": "Finalize color tokens", "project": "Design System v2", "due": "Today", "priority": "High", "done": false },
+    { "id": "t2", "title": "Write migration runbook", "project": "API Gateway Migration", "due": "Tomorrow", "priority": "Critical", "done": false },
+    { "id": "t3", "title": "User interview synthesis", "project": "Mobile App Redesign", "due": "Jul 22", "priority": "Medium", "done": true },
+    { "id": "t4", "title": "Set up staging environment", "project": "Customer Portal", "due": "Jul 24", "priority": "High", "done": false },
+    { "id": "t5", "title": "Chart component QA", "project": "Analytics Dashboard", "due": "Jul 25", "priority": "Low", "done": false }
+  ]
+}

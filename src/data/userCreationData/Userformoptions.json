@@ -1,0 +1,79 @@
+{
+  "genders": ["Male", "Female", "Non-binary", "Prefer not to say"],
+
+  "maritalStatuses": ["Single", "Married", "Divorced", "Widowed"],
+
+  "bloodGroups": ["A+", "A-", "B+", "B-", "AB+", "AB-", "O+", "O-"],
+
+  "departments": [
+    "Engineering", "Marketing", "Sales", "Support", "HR", "Finance", "Operations"
+  ],
+
+  "employmentTypes": ["Full-time", "Part-time", "Contract", "Intern"],
+
+  "workLocations": ["On-site", "Remote", "Hybrid"],
+
+  "roles": ["Admin", "Editor", "Viewer", "Manager", "Developer"],
+
+  "permissions": [
+    { "id": "view_users",       "label": "View Users" },
+    { "id": "edit_users",       "label": "Edit Users" },
+    { "id": "delete_users",     "label": "Delete Users" },
+    { "id": "view_reports",     "label": "View Reports" },
+    { "id": "export_data",      "label": "Export Data" },
+    { "id": "manage_settings",  "label": "Manage Settings" }
+  ],
+
+  "countries": [
+    "India", "United States", "United Kingdom",
+    "Germany", "Japan", "Australia", "Canada", "Singapore"
+  ],
+
+  "statesByCountry": {
+    "India":          ["Gujarat", "Maharashtra", "Karnataka", "Tamil Nadu", "Delhi", "Rajasthan"],
+    "United States":  ["California", "Texas", "New York", "Florida", "Washington"],
+    "United Kingdom": ["England", "Scotland", "Wales", "Northern Ireland"],
+    "Germany":        ["Bavaria", "Berlin", "Hamburg", "Saxony"],
+    "Japan":          ["Tokyo", "Osaka", "Kyoto", "Hokkaido"],
+    "Australia":      ["New South Wales", "Victoria", "Queensland", "Western Australia"],
+    "Canada":         ["Ontario", "Quebec", "British Columbia", "Alberta"],
+    "Singapore":      ["Central Region", "East Region", "West Region"]
+  },
+
+  "citiesByState": {
+    "Gujarat":          ["Ahmedabad", "Surat", "Vadodara", "Rajkot", "Gandhinagar", "Sanand"],
+    "Maharashtra":      ["Mumbai", "Pune", "Nagpur", "Nashik"],
+    "Karnataka":        ["Bengaluru", "Mysuru", "Hubli"],
+    "California":       ["Los Angeles", "San Francisco", "San Diego", "San Jose"],
+    "Texas":            ["Houston", "Austin", "Dallas", "San Antonio"],
+    "England":          ["London", "Manchester", "Birmingham", "Leeds"]
+  },
+
+  "designations": [
+    "Software Engineer", "Senior Software Engineer", "Tech Lead", "Engineering Manager",
+    "Product Manager", "UX Designer", "Data Analyst", "DevOps Engineer",
+    "QA Engineer", "Business Analyst", "HR Manager", "Sales Executive"
+  ],
+
+  "skills": [
+    "React", "TypeScript", "Node.js", ".NET", "Python", "SQL", "Docker",
+    "Kubernetes", "AWS", "Azure", "GraphQL", "REST API", "Figma", "Agile"
+  ],
+
+  "languages": [
+    "English", "Hindi", "Gujarati", "Marathi", "Tamil",
+    "German", "Japanese", "French", "Spanish"
+  ],
+
+  "hobbies": [
+    "Reading", "Traveling", "Photography", "Gaming",
+    "Cooking", "Music", "Sports", "Art", "Coding"
+  ],
+
+  "phoneCountryCodes": [
+    { "code": "+91", "flag": "🇮🇳", "label": "India" },
+    { "code": "+1",  "flag": "🇺🇸", "label": "USA" },
+    { "code": "+44", "flag": "🇬🇧", "label": "UK" },
+    { "code": "+49", "flag": "🇩🇪", "label": "Germany" }
+  ]
+}

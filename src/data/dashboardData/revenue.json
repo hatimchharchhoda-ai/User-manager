@@ -1,0 +1,23 @@
+{
+  "monthly": [
+    { "month": "Jan", "revenue": 42000, "expenses": 28000, "profit": 14000 },
+    { "month": "Feb", "revenue": 38500, "expenses": 25000, "profit": 13500 },
+    { "month": "Mar", "revenue": 51200, "expenses": 31000, "profit": 20200 },
+    { "month": "Apr", "revenue": 47800, "expenses": 29500, "profit": 18300 },
+    { "month": "May", "revenue": 55300, "expenses": 34000, "profit": 21300 },
+    { "month": "Jun", "revenue": 62100, "expenses": 37500, "profit": 24600 },
+    { "month": "Jul", "revenue": 58700, "expenses": 35000, "profit": 23700 },
+    { "month": "Aug", "revenue": 67400, "expenses": 40000, "profit": 27400 },
+    { "month": "Sep", "revenue": 71200, "expenses": 42000, "profit": 29200 },
+    { "month": "Oct", "revenue": 63900, "expenses": 38500, "profit": 25400 },
+    { "month": "Nov", "revenue": 78500, "expenses": 45000, "profit": 33500 },
+    { "month": "Dec", "revenue": 84750, "expenses": 49000, "profit": 35750 }
+  ],
+  "byChannel": [
+    { "channel": "Direct", "value": 38, "fill": "var(--chart-1)" },
+    { "channel": "Organic", "value": 27, "fill": "var(--chart-2)" },
+    { "channel": "Referral", "value": 18, "fill": "var(--chart-3)" },
+    { "channel": "Social", "value": 12, "fill": "var(--chart-4)" },
+    { "channel": "Paid", "value": 5, "fill": "var(--chart-5)" }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "kpis": [
+    {
+      "id": "revenue",
+      "label": "Total Revenue",
+      "value": 284750,
+      "prefix": "$",
+      "suffix": "",
+      "change": 12.4,
+      "changeLabel": "vs last month",
+      "trend": "up",
+      "icon": "TrendingUp"
+    },
+    {
+      "id": "users",
+      "label": "Active Users",
+      "value": 14832,
+      "prefix": "",
+      "suffix": "",
+      "change": 8.1,
+      "changeLabel": "vs last month",
+      "trend": "up",
+      "icon": "Users"
+    },
+    {
+      "id": "orders",
+      "label": "New Orders",
+      "value": 1294,
+      "prefix": "",
+      "suffix": "",
+      "change": -3.2,
+      "changeLabel": "vs last month",
+      "trend": "down",
+      "icon": "ShoppingCart"
+    },
+    {
+      "id": "churn",
+      "label": "Churn Rate",
+      "value": 2.4,
+      "prefix": "",
+      "suffix": "%",
+      "change": -0.6,
+      "changeLabel": "vs last month",
+      "trend": "down-good",
+      "icon": "UserMinus"
+    }
+  ]
+}
